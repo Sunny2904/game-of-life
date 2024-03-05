@@ -20,6 +20,7 @@
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
         <sonar.host.url>http://52.201.237.39:9000/</sonar.host.url>
+        
     </properties>
 
     <scm>
