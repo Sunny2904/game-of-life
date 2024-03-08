@@ -19,7 +19,6 @@
         <thucydides.version>1.8.4</thucydides.version>
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
-        <sonar.host.url>http://52.201.237.39:9000/</sonar.host.url>
         
     </properties>
 
@@ -208,6 +207,18 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement> 
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://54.175.217.252:8081/repository/Devops-Snapshot/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://54.175.217.252:8081/repository/Devops-Release/</url>
+		</repository>
+  	</distributionManagement> 
+    
     <modules>
         <module>gameoflife-build</module>
         <module>gameoflife-core</module>
